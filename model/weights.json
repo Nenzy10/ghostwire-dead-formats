@@ -1,0 +1,885 @@
+{
+ "format": "ghostwire-trigram-v1",
+ "trainedOn": 30,
+ "transitions": {
+  "<s> <s>": [
+   "we",
+   "the",
+   "every",
+   "we",
+   "the",
+   "a",
+   "we",
+   "the",
+   "nothing",
+   "we",
+   "the",
+   "a",
+   "the",
+   "we",
+   "the",
+   "every",
+   "we",
+   "the",
+   "search",
+   "the",
+   "we",
+   "the",
+   "a",
+   "the",
+   "we",
+   "the",
+   "honour",
+   "open",
+   "the",
+   "we"
+  ],
+  "<s> we": [
+   "remember",
+   "leave",
+   "honour",
+   "light",
+   "remember",
+   "speak",
+   "leave",
+   "remember",
+   "are"
+  ],
+  "we remember": [
+   "the",
+   "buffering",
+   "the"
+  ],
+  "remember the": [
+   "tools",
+   "first"
+  ],
+  "the tools": [
+   "that",
+   "so"
+  ],
+  "tools that": [
+   "carried"
+  ],
+  "that carried": [
+   "our"
+  ],
+  "carried our": [
+   "first"
+  ],
+  "our first": [
+   "ideas"
+  ],
+  "first ideas": [
+   "home"
+  ],
+  "ideas home": [
+   "</s>"
+  ],
+  "<s> the": [
+   "loading",
+   "ghost",
+   "old",
+   "plugin",
+   "buddy",
+   "feed",
+   "disc",
+   "loop",
+   "grey",
+   "tunnels",
+   "star",
+   "machine"
+  ],
+  "the loading": [
+   "bar"
+  ],
+  "loading bar": [
+   "was"
+  ],
+  "bar was": [
+   "a"
+  ],
+  "was a": [
+   "promise",
+   "neighbourhood",
+   "superpower"
+  ],
+  "a promise": [
+   "we"
+  ],
+  "promise we": [
+   "learned"
+  ],
+  "we learned": [
+   "to"
+  ],
+  "learned to": [
+   "wait",
+   "view"
+  ],
+  "to wait": [
+   "for"
+  ],
+  "wait for": [
+   "</s>"
+  ],
+  "<s> every": [
+   "dead",
+   "sunsetted"
+  ],
+  "every dead": [
+   "format"
+  ],
+  "dead format": [
+   "was"
+  ],
+  "format was": [
+   "once"
+  ],
+  "was once": [
+   "the"
+  ],
+  "once the": [
+   "future"
+  ],
+  "the future": [
+   "arriving"
+  ],
+  "future arriving": [
+   "early"
+  ],
+  "arriving early": [
+   "</s>"
+  ],
+  "we leave": [
+   "a",
+   "an"
+  ],
+  "leave a": [
+   "candle"
+  ],
+  "a candle": [
+   "for"
+  ],
+  "candle for": [
+   "the"
+  ],
+  "for the": [
+   "pages",
+   "formats",
+   "vanished"
+  ],
+  "the pages": [
+   "that"
+  ],
+  "pages that": [
+   "taught"
+  ],
+  "that taught": [
+   "us"
+  ],
+  "taught us": [
+   "to"
+  ],
+  "us to": [
+   "build"
+  ],
+  "to build": [
+   "</s>"
+  ],
+  "the ghost": [
+   "in"
+  ],
+  "ghost in": [
+   "the"
+  ],
+  "in the": [
+   "machine",
+   "dark"
+  ],
+  "the machine": [
+   "is",
+   "remembers"
+  ],
+  "machine is": [
+   "the"
+  ],
+  "is the": [
+   "maker"
+  ],
+  "the maker": [
+   "who"
+  ],
+  "maker who": [
+   "came"
+  ],
+  "who came": [
+   "before"
+  ],
+  "came before": [
+   "</s>"
+  ],
+  "<s> a": [
+   "file",
+   "thousand",
+   "generation"
+  ],
+  "a file": [
+   "that"
+  ],
+  "file that": [
+   "no"
+  ],
+  "that no": [
+   "player"
+  ],
+  "no player": [
+   "opens"
+  ],
+  "player opens": [
+   "still"
+  ],
+  "opens still": [
+   "holds"
+  ],
+  "still holds": [
+   "a"
+  ],
+  "holds a": [
+   "whole"
+  ],
+  "a whole": [
+   "afternoon"
+  ],
+  "whole afternoon": [
+   "</s>"
+  ],
+  "we honour": [
+   "the"
+  ],
+  "honour the": [
+   "guestbooks",
+   "past"
+  ],
+  "the guestbooks": [
+   "the"
+  ],
+  "guestbooks the": [
+   "counters"
+  ],
+  "the counters": [
+   "and"
+  ],
+  "counters and": [
+   "the"
+  ],
+  "and the": [
+   "quiet",
+   "encyclopedia",
+   "world",
+   "family",
+   "archive"
+  ],
+  "the quiet": [
+   "servers"
+  ],
+  "quiet servers": [
+   "</s>"
+  ],
+  "the old": [
+   "web",
+   "network"
+  ],
+  "old web": [
+   "was"
+  ],
+  "web was": [
+   "handmade"
+  ],
+  "was handmade": [
+   "and"
+  ],
+  "handmade and": [
+   "it"
+  ],
+  "and it": [
+   "glowed"
+  ],
+  "it glowed": [
+   "in"
+  ],
+  "glowed in": [
+   "the"
+  ],
+  "the dark": [
+   "</s>"
+  ],
+  "<s> nothing": [
+   "we"
+  ],
+  "nothing we": [
+   "loved"
+  ],
+  "we loved": [
+   "is"
+  ],
+  "loved is": [
+   "lost"
+  ],
+  "is lost": [
+   "while"
+  ],
+  "lost while": [
+   "someone"
+  ],
+  "while someone": [
+   "still"
+  ],
+  "someone still": [
+   "tells"
+  ],
+  "still tells": [
+   "its"
+  ],
+  "tells its": [
+   "story"
+  ],
+  "its story": [
+   "</s>"
+  ],
+  "we light": [
+   "marigolds"
+  ],
+  "light marigolds": [
+   "for"
+  ],
+  "marigolds for": [
+   "the"
+  ],
+  "the formats": [
+   "that"
+  ],
+  "formats that": [
+   "raised"
+  ],
+  "that raised": [
+   "a"
+  ],
+  "raised a": [
+   "generation"
+  ],
+  "a generation": [
+   "</s>",
+   "learned"
+  ],
+  "the plugin": [
+   "is"
+  ],
+  "plugin is": [
+   "gone"
+  ],
+  "is gone": [
+   "but"
+  ],
+  "gone but": [
+   "the"
+  ],
+  "but the": [
+   "cartoons"
+  ],
+  "the cartoons": [
+   "still"
+  ],
+  "cartoons still": [
+   "play"
+  ],
+  "still play": [
+   "in"
+  ],
+  "play in": [
+   "memory"
+  ],
+  "in memory": [
+   "</s>"
+  ],
+  "a thousand": [
+   "homepages"
+  ],
+  "thousand homepages": [
+   "slept"
+  ],
+  "homepages slept": [
+   "under"
+  ],
+  "slept under": [
+   "construction"
+  ],
+  "under construction": [
+   "signs"
+  ],
+  "construction signs": [
+   "forever"
+  ],
+  "signs forever": [
+   "</s>"
+  ],
+  "the buddy": [
+   "list"
+  ],
+  "buddy list": [
+   "was"
+  ],
+  "list was": [
+   "a"
+  ],
+  "a neighbourhood": [
+   "and"
+  ],
+  "neighbourhood and": [
+   "we"
+  ],
+  "and we": [
+   "all"
+  ],
+  "we all": [
+   "lived"
+  ],
+  "all lived": [
+   "there"
+  ],
+  "lived there": [
+   "</s>"
+  ],
+  "remember buffering": [
+   "as"
+  ],
+  "buffering as": [
+   "patience"
+  ],
+  "as patience": [
+   "and"
+  ],
+  "patience and": [
+   "patience"
+  ],
+  "and patience": [
+   "as"
+  ],
+  "patience as": [
+   "ritual"
+  ],
+  "as ritual": [
+   "</s>"
+  ],
+  "the feed": [
+   "reader"
+  ],
+  "feed reader": [
+   "gathered"
+  ],
+  "reader gathered": [
+   "the"
+  ],
+  "gathered the": [
+   "internet"
+  ],
+  "the internet": [
+   "into"
+  ],
+  "internet into": [
+   "one"
+  ],
+  "into one": [
+   "calm"
+  ],
+  "one calm": [
+   "river"
+  ],
+  "calm river": [
+   "</s>"
+  ],
+  "every sunsetted": [
+   "service"
+  ],
+  "sunsetted service": [
+   "leaves"
+  ],
+  "service leaves": [
+   "its"
+  ],
+  "leaves its": [
+   "users"
+  ],
+  "its users": [
+   "as"
+  ],
+  "users as": [
+   "its"
+  ],
+  "as its": [
+   "archive"
+  ],
+  "its archive": [
+   "</s>"
+  ],
+  "we speak": [
+   "the"
+  ],
+  "speak the": [
+   "names"
+  ],
+  "the names": [
+   "of"
+  ],
+  "names of": [
+   "the"
+  ],
+  "of the": [
+   "tools",
+   "old"
+  ],
+  "tools so": [
+   "they"
+  ],
+  "so they": [
+   "are"
+  ],
+  "they are": [
+   "not"
+  ],
+  "are not": [
+   "forgotten"
+  ],
+  "not forgotten": [
+   "</s>"
+  ],
+  "the disc": [
+   "held"
+  ],
+  "disc held": [
+   "an"
+  ],
+  "held an": [
+   "encyclopedia"
+  ],
+  "an encyclopedia": [
+   "and"
+  ],
+  "encyclopedia and": [
+   "the"
+  ],
+  "the encyclopedia": [
+   "held"
+  ],
+  "encyclopedia held": [
+   "wonder"
+  ],
+  "held wonder": [
+   "</s>"
+  ],
+  "<s> search": [
+   "was"
+  ],
+  "search was": [
+   "a"
+  ],
+  "a superpower": [
+   "before"
+  ],
+  "superpower before": [
+   "it"
+  ],
+  "before it": [
+   "became"
+  ],
+  "it became": [
+   "a"
+  ],
+  "became a": [
+   "habit"
+  ],
+  "a habit": [
+   "</s>"
+  ],
+  "the loop": [
+   "ended"
+  ],
+  "loop ended": [
+   "exactly"
+  ],
+  "ended exactly": [
+   "where"
+  ],
+  "exactly where": [
+   "it"
+  ],
+  "where it": [
+   "began"
+  ],
+  "it began": [
+   "and"
+  ],
+  "began and": [
+   "that"
+  ],
+  "and that": [
+   "was"
+  ],
+  "that was": [
+   "enough"
+  ],
+  "was enough": [
+   "</s>"
+  ],
+  "leave an": [
+   "offering"
+  ],
+  "an offering": [
+   "of"
+  ],
+  "offering of": [
+   "pixels"
+  ],
+  "of pixels": [
+   "for"
+  ],
+  "pixels for": [
+   "the"
+  ],
+  "the vanished": [
+   "neighbourhoods"
+  ],
+  "vanished neighbourhoods": [
+   "</s>"
+  ],
+  "the grey": [
+   "rectangle"
+  ],
+  "grey rectangle": [
+   "marks"
+  ],
+  "rectangle marks": [
+   "where"
+  ],
+  "marks where": [
+   "something"
+  ],
+  "where something": [
+   "wonderful"
+  ],
+  "something wonderful": [
+   "used"
+  ],
+  "wonderful used": [
+   "to"
+  ],
+  "used to": [
+   "run"
+  ],
+  "to run": [
+   "</s>"
+  ],
+  "generation learned": [
+   "to"
+  ],
+  "to view": [
+   "source"
+  ],
+  "view source": [
+   "and"
+  ],
+  "source and": [
+   "never"
+  ],
+  "and never": [
+   "looked"
+  ],
+  "never looked": [
+   "back"
+  ],
+  "looked back": [
+   "</s>"
+  ],
+  "the tunnels": [
+   "of"
+  ],
+  "tunnels of": [
+   "the"
+  ],
+  "old network": [
+   "still"
+  ],
+  "network still": [
+   "run"
+  ],
+  "still run": [
+   "beneath"
+  ],
+  "run beneath": [
+   "the"
+  ],
+  "beneath the": [
+   "web"
+  ],
+  "the web": [
+   "</s>"
+  ],
+  "the first": [
+   "page"
+  ],
+  "first page": [
+   "we"
+  ],
+  "page we": [
+   "published"
+  ],
+  "we published": [
+   "and"
+  ],
+  "published and": [
+   "the"
+  ],
+  "the world": [
+   "felt"
+  ],
+  "world felt": [
+   "wide"
+  ],
+  "felt wide": [
+   "</s>"
+  ],
+  "the star": [
+   "wipe"
+  ],
+  "star wipe": [
+   "fades"
+  ],
+  "wipe fades": [
+   "and"
+  ],
+  "fades and": [
+   "the"
+  ],
+  "the family": [
+   "film"
+  ],
+  "family film": [
+   "plays"
+  ],
+  "film plays": [
+   "on"
+  ],
+  "plays on": [
+   "in"
+  ],
+  "on in": [
+   "us"
+  ],
+  "in us": [
+   "</s>"
+  ],
+  "<s> honour": [
+   "the"
+  ],
+  "the past": [
+   "by"
+  ],
+  "past by": [
+   "building"
+  ],
+  "by building": [
+   "openly"
+  ],
+  "building openly": [
+   "for"
+  ],
+  "openly for": [
+   "whoever"
+  ],
+  "for whoever": [
+   "comes"
+  ],
+  "whoever comes": [
+   "next"
+  ],
+  "comes next": [
+   "</s>"
+  ],
+  "<s> open": [
+   "weights"
+  ],
+  "open weights": [
+   "and"
+  ],
+  "weights and": [
+   "open"
+  ],
+  "and open": [
+   "words"
+  ],
+  "open words": [
+   "keep"
+  ],
+  "words keep": [
+   "the"
+  ],
+  "keep the": [
+   "dead"
+  ],
+  "the dead": [
+   "tools"
+  ],
+  "dead tools": [
+   "speaking"
+  ],
+  "tools speaking": [
+   "</s>"
+  ],
+  "machine remembers": [
+   "what"
+  ],
+  "remembers what": [
+   "the"
+  ],
+  "what the": [
+   "market"
+  ],
+  "the market": [
+   "chose"
+  ],
+  "market chose": [
+   "to"
+  ],
+  "chose to": [
+   "forget"
+  ],
+  "to forget": [
+   "</s>"
+  ],
+  "we are": [
+   "the"
+  ],
+  "are the": [
+   "archive"
+  ],
+  "the archive": [
+   "now",
+   "is"
+  ],
+  "archive now": [
+   "and"
+  ],
+  "now and": [
+   "the"
+  ],
+  "archive is": [
+   "still"
+  ],
+  "is still": [
+   "open"
+  ],
+  "still open": [
+   "</s>"
+  ]
+ }
+}
