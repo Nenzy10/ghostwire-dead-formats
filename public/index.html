@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>GhostWire — a séance for dead file formats</title>
+<style>
+  body{background:#0b0e11;color:#c8f2c8;font-family:ui-monospace,Menlo,Consolas,monospace;margin:0;padding:2rem 1rem}
+  main{max-width:760px;margin:0 auto}
+  h1{color:#ffb347;font-size:1.6rem} .sub{color:#8aa88a}
+  .altar{border:1px solid #2c4632;padding:1rem;border-radius:8px;background:#0f1512;white-space:pre-wrap;min-height:180px}
+  input,button{background:#131a16;color:#c8f2c8;border:1px solid #2c4632;border-radius:6px;padding:.6rem;font:inherit}
+  button{cursor:pointer;color:#ffb347} form{display:flex;gap:.5rem;margin:1rem 0} input{flex:1}
+  .chips button{margin:.15rem} footer{color:#5f7a5f;margin-top:2rem;font-size:.85rem}
+</style>
+</head>
+<body>
+<main>
+  <h1>🕯️ GhostWire</h1>
+  <p class="sub">A séance for dead file formats &amp; forgotten internet tools — Día de los Muertos for the software we grew up on. Name a format, a tool, or a memory; the medium (a tiny language model trained in this repo, running locally) answers with an ofrenda card.</p>
+  <form id="f"><input id="q" placeholder='Try: .swf · GeoCities · "my buddy list" · buffering' autocomplete="off"><button>Summon</button></form>
+  <div class="chips" id="chips"></div>
+  <div class="altar" id="out">The terminal waits. Leave an offering: a name from the old web.</div>
+  <footer>Zero servers were haunted in the making: retrieval (TF-IDF) and generation (trigram model, weights in <code>model/weights.json</code>) run entirely on your machine. MIT licensed.</footer>
+</main>
+<script>
+const out = document.getElementById('out');
+async function summon(q){
+  out.textContent = '…the candles flicker…';
+  try {
+    const r = await fetch('/api/summon?q=' + encodeURIComponent(q));
+    const j = await r.json();
+    out.textContent = j.card || j.message;
+  } catch(e){ out.textContent = 'The demo API is asleep — run `npm start`, or use the CLI: node src/cli.js summon "' + q + '"'; }
+}
+document.getElementById('f').addEventListener('submit', e => { e.preventDefault(); summon(document.getElementById('q').value); });
+fetch('/api/spirits').then(r=>r.json()).then(list=>{
+  const c=document.getElementById('chips');
+  list.slice(0,8).forEach(s=>{ const b=document.createElement('button'); b.textContent=s.name; b.onclick=()=>summon(s.id); c.appendChild(b); });
+}).catch(()=>{});
+</script>
+</body>
+</html>
